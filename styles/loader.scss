@@ -1,0 +1,37 @@
+.main-loader{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    .loader-div{
+        position: absolute;
+        color: white;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .loader-background{
+            width: 130rem ;
+            height: 130rem;
+        }
+        .loader-logo{
+            width: 4rem;
+            position: absolute;
+            height: 4rem;
+            margin-bottom: 3rem;
+        }
+        .loader-font{
+            font-family: var(--Sf-Lt);
+            font-size: 0.8rem;
+            position: absolute;
+            margin-top: 4rem;
+            font-weight: 100;
+            opacity: 0.7;
+            letter-spacing: 0.2px;
+        }
+    }
+}

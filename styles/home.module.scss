@@ -1,0 +1,11 @@
+.firstSection {
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: var(--Sf-Rg);
+      font-size: 2rem;
+    }
+  }
+}
